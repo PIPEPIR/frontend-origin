@@ -8,7 +8,7 @@ const AddBtn = () => {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push("/addproduct");
+    router.push("/addeditproduct");
   };
   return (
     <button

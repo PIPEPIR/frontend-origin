@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Image from "next/image";
 import logo from "../../public/logo.svg";
+import Link from "next/link";
 
 const notoSans = localFont({
   src: "./fonts/NotoSansThai-VariableFont_wdth,wght.ttf",
@@ -24,7 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${notoSans} antialiased`}>
         <nav className="flex justify-center items-center py-3 grey-100 drop-shadow-sm bg-grey-100 ">
-          <Image src={logo} alt="logo" />
+          <Link href="/">
+            <Image src={logo} alt="logo" />
+          </Link>
         </nav>
         <main className="min-h-dvh">{children}</main>
         <footer className="flex justify-center py-2 body-2 bg-grey-90 text-grey-30">
