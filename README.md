@@ -2,11 +2,6 @@
 
 This document outlines the steps to run the frontend project using Yarn and how to set up the environment variables using a `.env` file.
 
-## Prerequisites
-
-- Ensure that you have [Node.js](https://nodejs.org/) installed (version 14 or higher recommended).
-- Install [Yarn](https://yarnpkg.com/getting-started/install) if you haven't already.
-
 ## Setting Up the Project
 
 1. **Clone the Repository:**
